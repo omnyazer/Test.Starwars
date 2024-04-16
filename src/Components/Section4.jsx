@@ -24,15 +24,15 @@ function Section4() {
     );
     }else if (!isMobile) { 
     return (
-        <Box sx={{ p: 15,  display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Typography variant="h4" sx={{ mb: 4 , fontWeight: 'bold', textAlign: 'center' }}>
+        <Box sx={{ p: 15,  display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="h4" sx={{ mb: 4 , fontWeight: 'bold', textAlign: 'center',p:5 }}>
             A long time ago, in a galaxy far, far away…
           </Typography>
           <Box sx={{display: 'block', maxWidth: '80%',margin: 'auto'}}>
             <img
               src={Image}
               alt="R2D2-C3P0"
-              style={{ paddingRight:'2vh', width: '300px', maxHeight: '300px', objectFit: 'contain', float: 'left' }} 
+              style={{ paddingRight:'2vh', width: '300px', maxHeight: '300px', objectFit: 'contain' , float: 'left' }} 
             />
         <Typography variant="body1" style={{ textAlign: 'justify', lineHeight: '1.7',textShadow: '1px 1px 2px gray' }}>
               <strong><i>La Guerre des étoiles</i></strong> (titre original <strong><i>Star Wars</i></strong>, soit littéralement Guerres Stellaires) est une épopée cinématographique de science-fiction créée par George Lucas, considérée comme un élément phare du space opera. A long time ago, in a galaxy far, far away…

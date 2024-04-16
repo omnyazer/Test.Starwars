@@ -7,7 +7,7 @@ function Section3() {
       <img
         src={kylorenImage}
         alt="kylorenImage"
-        style={{ maxWidth: "100%", height: "auto" }}
+        style={{maxWidth: "100%" , height: "auto" }}
       />
     </Box>
   );

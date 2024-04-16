@@ -30,7 +30,7 @@ function Section2() {
       backgroundPosition: 'center',
     }}>
       {isDesktop ? (
-        <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center",color: '#fff'}}>
+        <Box sx={{ display: "flex", alignItems:"center", justifyContent: "center",color: '#fff'}}>
           <Box sx={{ flex: 1, pr: 15, ml: 15, }}>
             
           <Typography variant="body1" sx={{ fontFamily: '"Open Sans", sans-serif', lineHeight: 2 }}>
@@ -43,7 +43,7 @@ function Section2() {
             Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d&apos;épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.<br /><br />
           </Typography>            
           </Box>
-          <Box sx={{ flex: 1, pl: 2, position: 'sticky', top: '10vh', alignSelf: 'flex-start', ml: '15vh' }}>
+          <Box sx={{ flex: 1, pl: 2, position: 'sticky' , top: '10vh', alignSelf: 'flex-start', ml: '15vh' }}>
             <img
               src={ADSImage}
               alt="ADSImage"

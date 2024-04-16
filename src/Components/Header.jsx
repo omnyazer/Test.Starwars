@@ -21,28 +21,28 @@ const Header = () => {
     }, []);
 
     return (
-        <div style={{ position: 'relative', height: isMobile ? '45vh' : '100vh', overflow: 'hidden',marginBottom: '-4vh'}}>
+        <div style={{ position: 'relative', height: isMobile ? '45vh' :'100vh', overflow: 'hidden',marginBottom: '-4vh'}}>
             <img
                 src={HeaderImage}
-                alt="Image"
+                alt="headerImage"
                 style={{
                     width: '100%',
                     position: 'relative',
-                    top: offset * 0.5 + 'px',
-                    transition: 'top 0.2s linear',
+                    top: offset * 0.4 + 'px',
+                    transition: 'top 0.4s linear',
                     height: '110%' 
                 }}
             />
             <img
                 src={LogoImage}
-                alt="Image Superposée"
+                alt="logoImage"
                 style={{
                     position: 'absolute',
-                    top: `calc(60% - ${offset * 0.3}px)`,
+                    top: `calc(60% - ${offset * 0.3}px)` ,
                     left: '50%',
                     transform: 'translate(-50%, -50%)',
-                    width: isMobile ? '36vh' : '80vh',
-                    height: isMobile ? '25vh' : '40vh',
+                    width: isMobile ?'36vh' : '80vh',
+                    height: isMobile ?'25vh' : '40vh',
                     transition: 'top 0.2s linear'
                 }}
             />

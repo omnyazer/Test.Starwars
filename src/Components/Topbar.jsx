@@ -27,7 +27,7 @@ function TopBar() {
             LES DROÏDES
           </Typography>
           <Typography variant="body2" color="white" sx={{ fontSize: "10px", minWidth: "100px", fontWeight: "bold" }}>
-            LES EWOKS
+             LES EWOKS
           </Typography>
           <Typography variant="body2" color="white" sx={{ fontSize: "10px", minWidth: "120px", marginRight: "70px", fontWeight: "bold" }}>
             JABBA LE HUTT
